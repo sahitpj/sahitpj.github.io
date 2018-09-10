@@ -813,6 +813,10 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
     padding: 40px;
 }
 
+.post-template-content{
+    font-size: 20px;
+}
+
 .about-page{
     margin-top: 100px;
 }

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example content
+title: HTML content Support for this theme
 comments: true
 ---
 
