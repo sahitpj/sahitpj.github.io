@@ -1,30 +1,41 @@
 ---
 layout: page
-title: About
+title: About Me
+description: Jayakrishna Sahit, A student of IITGN who loves Distributed Systems, Data Analytics and Open Source
+permalink: /about/
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+
+<div class="row">
+<div class="col-lg-8  col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8  col-sm-offset-2 about-page">
+<h1 class="page-title">{{ page.title }}</h1>
+
+<p class="about-content">I am Jayakrishna and curremtly a Third Year Undergraduate at IIT Gandinagar, I work on Distributed Systems and Data Analytics. I also specialise in Naturtal Language Processing</p>
+
+<p class="about-content"> Contribute frequenctly to Open Source. Previously, Interned at the British Broadcasting Corporation where my job profile was Full Stack Development. I code extensively in Go, Python, JavaScript and C, also having experience in other languages</p>
+
+<p class="about-content">Apart from this I also enjoy playing football ( I am an Arsenal, and it seems like they have a tough year ahead of them now ), the guitar and piano too. I am also a writer</p>
+
+<p class="about-content">I am also currently PyData Gandhinagar's Core Member. You can find more about PyData from <a href="https://pydatagn.github.io/">here</a>. Do feel free to reach out to me through the following regarding anything.</p>
+
+
+
+<br><br><br>
+</div>
+</div>
+<div class="row">
+<div align="center">
+<p>
+<a href="mailto:sahitjayakrishna8@gmail.com"><i class="fa fa-envelope-o fa-fw" aria-hidden="true" style="font-size:40px;color:#2980b9"></i></a>
+&nbsp; &nbsp; &nbsp;
+<a href="https://github.com/sahitpj"><i class="fa fa-github" aria-hidden="true" style="font-size:40px;color:#2980b9"></i></a>
+&nbsp; &nbsp; &nbsp;
+<a href="https://twitter.com/sahitpj"><i class="fa fa-twitter" aria-hidden="true" style="font-size:40px;color:#2980b9"></i></a>
+&nbsp; &nbsp; &nbsp;
+<a href="https://www.linkedin.com/in/jayakrishna-sahit-81b485129/"><i class="fa fa-linkedin" aria-hidden="true" style="font-size:40px;color:#2980b9"></i></a>
+&nbsp; &nbsp; &nbsp;
 </p>
+</div>
+</div>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+<br><br><br><br><br><br><br>

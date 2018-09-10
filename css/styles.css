@@ -1,4 +1,16 @@
+/*!
+    Title: Dev Portfolio Template
+    Version: 1.2.1
+    Last Change: 08/28/2017
+    Author: Ryan Fitzgerald
+    Repo: https://github.com/RyanFitzgerald/devportfolio-template
+    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
 
+    Description: This file contains all the styles associated with the page
+    that don't come from third party libraries. This file gets compiled using
+    Gulp and send to the /css folder which is then loaded on the page.
+
+    */
 body{
     font-family:'Lato', sans-serif;
     font-size:16px
@@ -91,6 +103,15 @@ header.sticky{
 #menu.active{
     display:block
 }
+
+#navbar-button {
+    border-color: black;
+}
+
+.icon-bar{
+    background-color: black;
+}
+
 #mobile-menu-open{
     display:none;
     cursor:pointer;
@@ -225,9 +246,12 @@ footer{
     transform:translate(-50%, -50%);
     text-align:center
 }
+
+
 #lead-content h1,#lead-content h2{
-    margin:0
+    margin-top:-100px;
 }
+
 #lead-content h1{
     color:#fff;
     font-weight:900;
@@ -261,7 +285,8 @@ footer{
     text-align:center;
     z-index:10;
     bottom:15px;
-    color:black
+    color:black;
+    
 }
 #lead-down span{
     cursor:pointer;
@@ -271,7 +296,8 @@ footer{
     height:35px;
     border-radius:50%;
     border:3px solid black;
-    text-align:center
+    text-align:center;
+    margin-top: -110px
 }
 #lead-down i{
     animation:pulsate 1.5s ease;
@@ -467,8 +493,7 @@ footer{
 }
 
 .about-image{
-    height: 300px;
-    width: auto;
+    width: 100%;
 }
 
 
@@ -755,20 +780,47 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .foote_bottom_ul_amrc li { display:inline;}
 .foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
 
-.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
-.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
-.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
-.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+.social_footer_ul { 
+    display:table; 
+    margin:15px auto 0 auto;
+    list-style-type:none;
+}
+.social_footer_ul li {
+    padding:10px;
+    display: inline-flex;
+}
+.social_footer_ul li a {
+     color:#CCC; 
+     border:1px solid #CCC; 
+     padding:8px;
+     border-radius:50%;
+}
+.social_footer_ul li i { 
+     width:20px; 
+     height:20px; 
+     text-align:center;
+}
 
-
-.blogposts{
-    padding: 30px;
+.post-title{
+    text-align: left;
 }
 
 .post-excerpt{
     text-align: left;
 }
 
-.post-title{
-    text-align: left;
+.blogposts{
+    padding: 40px;
+}
+
+.about-page{
+    margin-top: 100px;
+}
+
+.about-content{
+    font-size: 20px;
+}
+
+.page-title{
+    padding: 20px;
 }
