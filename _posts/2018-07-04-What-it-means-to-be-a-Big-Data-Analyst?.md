@@ -7,11 +7,15 @@ comments: true
 
 During the past two years of college, I have had a lot of friends who would come up to me and tell how they were learning Big Data Analytics and how they wished to pursue that in the future as well. At first, the word seemed fancy and adding to that people would sometimes refer it to as Data Science which would sometimes make it seem like its a whole new branch of computer science. But over time I have had the chance to know more about it and eventually had the opportunity to work as a Data Scientist myself, and trust me, it is nothing as I thought it was compared to when I first heard it. So for all those people who are wondering Big Data is and what exactly it means to be a Big Data Analyst, here is my understanding of it, But first, let’s answer another more genuine question some of us might have, what does Big Data actually mean?
 
+
 Big Data refers to the large amount of data, we are capable of extracting from any raw form of data. To be precise this sudden boom in the amount of data we were generating is called the Big Data Age.
+
 
 To understand this lets take the example of some object X ( remember X is an object type , like a class ). X has two components as an object — 1. attributes 2. characteristics. A characteristic can be defined as its behavioural aspect more like the effect and the attribute like a quality, more like the cause. Hence attributes cause an X object’s characteristics.
 
+
 Since X as an object is long known, extracting data about all its characteristics is possible, however X as a object would give the user, information about its attributes 1,2,3 ( let’s suppose ). X simply with it’s attributes — 1,2,3 is said to be in it’s raw form. Now before the Big Data Age, we could only assign and extract attributes 1,2,3 from X. But now we can assign and extract 1,2,3 along with an additional 4,5,6,7,8 and derivatives of all these 8 attributes, which leads to secondary attributes and so on.
+
 
 Note: Throughout the post the word ‘extracting’ doesn’t mean the literal extraction, it simply means that we can find it’s values.
 

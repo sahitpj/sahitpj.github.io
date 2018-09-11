@@ -826,11 +826,15 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 }
 
 .post-template-content{
-    font-size: 17px;
-    font-family: "Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
-    line-height: 1.8;
-    padding-left: 45px;
-    padding-right: 45px;
+    font-size: 21px;
+    font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+    line-height: 1.42857143;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.post-template-content p{
+    padding-bottom: 20px;
 }
 
 .row-about-page{
@@ -880,6 +884,16 @@ hr.style-seven {
     font-family: "Roboto",sans-serif;
 }
 
-.archive-year{
-    padding: 20px;
+.archive-title{
+    font-size: 35px;
+    margin-left: -10px;
+}
+
+.blog-list-items{
+    font-size: 17px;
+}
+
+.blog-year{
+    margin-left: -20px;
+    font-size: 25px;
 }
