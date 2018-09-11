@@ -803,6 +803,18 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 
 .post-title{
     text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.post-author{
+    text-align:center;
+    padding: 8px;
+}
+
+.post-date{
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 .post-excerpt{
@@ -814,17 +826,60 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 }
 
 .post-template-content{
-    font-size: 20px;
+    font-size: 17px;
+    font-family: "Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    line-height: 1.8;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.row-about-page{
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 .about-page{
     margin-top: 100px;
+    line-height: 1.8;
+    
 }
 
 .about-content{
-    font-size: 20px;
+    font-size: 17px;
+    font-family: "Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
 }
 
 .page-title{
+    padding: 20px;
+}
+
+
+hr.style-seven { 
+    overflow: visible;
+     /* For IE */ 
+    height: 30px; 
+    border-style: solid; 
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px; 
+}
+ hr.style-seven:before { 
+     /* Not really supposed to work, but does */
+    display: block; content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid; 
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.archive-page{
+    padding: 50px;
+    margin-top: 50px;
+    font-family: "Roboto",sans-serif;
+}
+
+.archive-year{
     padding: 20px;
 }
