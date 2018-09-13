@@ -826,7 +826,7 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 }
 
 .post-template-content{
-    font-size: 21px;
+    font-size: 17px;
     font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
     line-height: 1.42857143;
     padding-left: 25px;
@@ -835,6 +835,11 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 
 .post-template-content p{
     padding-bottom: 20px;
+}
+
+.post-subheading{
+    color:#23527c;
+    font-size:25px;
 }
 
 .row-about-page{
@@ -851,6 +856,12 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .about-content{
     font-size: 17px;
     font-family: "Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+}
+
+.about-image{
+    height: 400px;
+    width: auto;
+    padding-top: 50px;
 }
 
 .page-title{

@@ -14,7 +14,7 @@ permalink: /about/
 
 <p class="about-content">I previously interned at the British Broadcasting Corporation, where my job profile was Full Stack Development. I code extensively in Go, Python, JavaScript and C, also having experience in other languages</p>
 
-<p class="about-content">I Contribute frequently to Open Source and I am currently Fostering an Open Source Community for IITGN, under the name FOSSA-GN. Do feel free to drop me an email regarding any suggestions or about being a member of this group.</p>
+<p class="about-content">I Contribute frequently to Open Source and am currently Fostering the Centre for Software Development, also known as <a href="https://github.com/csdlabs">CSD Labs</a>, as an initiative to build a community of Developers in IIT Gandhinagar. Do feel free to drop me an email regarding any suggestions or about being a member of this group.</p>
 
 <p class="about-content">I am also currently PyData Gandhinagar's Core Member. You can learn more about PyData from <a href="https://pydatagn.github.io/">here</a>. Do feel free to reach out to me through the following regarding anything.</p>
 
@@ -40,4 +40,11 @@ permalink: /about/
 </div>
 </div>
 
+
+<div class="row">
+<div align="center">
+<img src="{{ site.baseurl }}/assets/sahit.jpg" class="about-image">
+</div>
+</div>
 <br><br><br><br><br><br><br>
+t
