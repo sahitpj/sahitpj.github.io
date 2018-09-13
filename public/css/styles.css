@@ -471,6 +471,11 @@ footer{
     width: auto;
 }
 
+.home-image{
+    height: 100px;
+    width: auto
+}
+
 
 .project-info p{
     color:#74808a;
