@@ -5,7 +5,7 @@ comments: true
 ---
 
 
-tar, A GNU project which we happened to stumble upon atleast once, and it is never easy understanding the flags to use in order to compress or extract files, so in this short blog post, I am going to give you a list of basic tar functions and their flags and a good way of remembering them. Warning - PG 13 content ahead !
+tar, A GNU project which we happened to stumble upon atleast once, and it is never easy understanding the flags to use in order to compress or extract files, so in this short blog post, I am going to give you a list of basic tar functions and their flags and a good way of remembering them. I want to thank an anonymous dev.to user who came up with this idea 'cause honestly I think it is a nice way. So without further a do, lets dive in and Warning - PG 13 content ahead !
 
 <h1 class="post-subheading">Extracting</h1>
 
