@@ -35,7 +35,6 @@ permalink: /about/
 <a href="https://twitter.com/sahitpj"><i class="fa fa-twitter" aria-hidden="true" style="font-size:40px;color:#2980b9"></i></a>
 &nbsp; &nbsp; &nbsp;
 <a href="https://www.linkedin.com/in/jayakrishna-sahit-81b485129/"><i class="fa fa-linkedin" aria-hidden="true" style="font-size:40px;color:#2980b9"></i></a>
-&nbsp; &nbsp; &nbsp;
 </p>
 </div>
 </div>

@@ -2,6 +2,7 @@
 layout: post
 title: What it means to be a Big Data Analyst
 comments: true
+tags: [Big Data, Industry, Data]
 ---
 
 

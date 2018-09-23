@@ -745,8 +745,23 @@ footer{
     }
 }
  
+.interesting-updates{
+    padding: 40px;
+}
+
+.updates-each-title{
+    color:#2980b9;
+}
+
+.updates-image{
+    height: 150px;
+    width: 270px;
+}
 
 
+.icon-home-page{
+    padding: 15px;
+}
 /* footer css */
 
 
@@ -825,6 +840,11 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
     padding: 40px;
 }
 
+.blogposts-tags{
+    margin-top: 50px;
+    text-align: left;
+    
+}
 .post-template-content{
     font-size: 17px;
     font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
