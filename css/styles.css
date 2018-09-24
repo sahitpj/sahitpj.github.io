@@ -749,13 +749,22 @@ footer{
     padding: 40px;
 }
 
+@media only screen and (max-width :480px){
+    .updates-image{
+        height: auto;
+        width: 100%;
+    }
+}
+
 .updates-each-title{
     color:#2980b9;
 }
 
-.updates-image{
-    height: 150px;
-    width: 270px;
+@media only screen and (min-width :480px){
+    .updates-image{
+        height: 150px;
+        width: 270px;
+    }
 }
 
 
