@@ -14,7 +14,7 @@ permalink: /about/
 
 <p class="about-content">I previously interned at the British Broadcasting Corporation (BBC), where my job profile was Full Stack Development. I code extensively in multiple languages such as Go, Python, C/C++, JavaScript and Rust.</p>
 
-<p class="about-content">Apart from this I also enjoy playing football (I am an Arsenal, and it seems like they have a tough year ahead of them now), the guitar and piano too. I am also a writer</p>
+<p class="about-content">Apart from this, I also enjoy playing football (I am an Arsenal, and it seems like they have a tough year ahead of them now), the guitar and piano too. I am also a writer</p>
 
 <p class="about-content">Do feel free to reach out to me through any of the following Social Media accounts, regarding any of the updates I post in the updates section, or anything else in general.</p>
 
