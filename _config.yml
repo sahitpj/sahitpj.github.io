@@ -12,6 +12,7 @@ url:
 baseurl:             ''
 paginate_path: "/blog/page:num/"
 paginate:            5
+future: true
 
 # About/contact
 author:
