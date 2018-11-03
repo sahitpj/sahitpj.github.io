@@ -10,7 +10,7 @@ permalink: /about/
 <div class="col-lg-8  col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8  col-sm-offset-2 about-page">
 <h1 class="page-title">{{ page.title }}</h1>
 
-<p class="about-content">Hey there! I am Jayakrishna Sahit and am currently a Third Year Undergraduate at IIT Gandinagar. I work on System Software, Full Stack Development and Data Analytics. I also specialise in Naturtal Language Processing and have good experiemce in Cloud and Distributed Systems</p>
+<p class="about-content">Hey there! I am Jayakrishna Sahit and am currently a Third Year Undergraduate at IIT Gandinagar. I work on Software Development and Data Analytics. I also specialise in Naturtal Language Processing and have good experiemce in Cloud and Distributed Systems</p>
 
 <p class="about-content">I previously interned at the British Broadcasting Corporation (BBC), where my job profile was Full Stack Development. I code extensively in multiple languages such as Go, Python, C/C++, JavaScript and Rust.</p>
 

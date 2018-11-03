@@ -775,7 +775,7 @@ footer{
 
 
 .col_white_amrc { color:#FFF;}
-footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ;}
+footer { width:100%; background-color:black; min-height:250px; padding:10px 0px 25px 0px ;}
 .pt2 { padding-top:40px ; margin-bottom:20px ;}
 footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .mb10 { padding-bottom:15px ;}
@@ -876,6 +876,10 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
     padding-right: 45px;
 }
 
+.diff{
+    font-family: 'Rockwell', serif;
+}
+
 .about-page{
     margin-top: 100px;
     line-height: 1.8;
@@ -936,4 +940,51 @@ hr.style-seven {
 .blog-year{
     margin-left: -20px;
     font-size: 25px;
+}
+
+
+/* MainSPace section CSS */
+
+.mainspace-heading{
+    background-color:  rgb(250, 231, 58);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.mainspace-each-title{
+    font-size: 20px;
+}
+
+.mainspace-a {
+    color: black
+}
+
+.mainspace-image{
+    width: 100%;
+}
+
+.button {
+    background-color: rgb(250, 231, 58);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Rockwell', serif;
+}
+
+.rest{
+    font-size: 20px;
+}
+
+.separate{
+    font-size: 20px;
+}
+
+body{
+    overflow-x: hidden;
 }
