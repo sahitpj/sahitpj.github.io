@@ -2,7 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 
-relative_permalinks: false
+
 plugins: [jekyll-paginate]
 # Setup
 title:               Sahit PJ's website
@@ -10,7 +10,6 @@ tagline:             'A little mix of Tech, Coolness and Nerdiness'
 description:         
 url:                 
 baseurl:             ''
-paginate_path: "/blog/page:num/"
 paginate:            5
 future: true
 
