@@ -2,7 +2,7 @@
 layout: post
 title: The tar cheatsheet and how to never forget
 comments: true
-tags: [tar, gzip, cheatsheet, extraction, compression]
+tags: [Tar, Cheatsheet]
 ---
 
 

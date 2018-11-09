@@ -2,7 +2,7 @@
 layout: post
 title: The Important guide to git
 comments: true
-tags: [git, cli, github]
+tags: [Git]
 ---
 
 Version control, a key tool for developers and the one which we end up using - git. Although git happens to be failry simple and intuitive in basic things such as `pull` , `push` and `clone` , it however poses a challenge when you want to work with actual version control commands, such as reverting a commit, or updating your repository with the remote one - The main reason why there exits multiple applications which use visual version control, but if you are like me who enjoys working on the command line this post os for you!
