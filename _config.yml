@@ -15,9 +15,9 @@ future: true
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Jayakrishna Sahit
+  url:               https://twitter.com/sahitpj  
+  email:             jayakrishna.sahit@iitgn.ac.in
 
 # Custom vars
 version:             1.0.0
