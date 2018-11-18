@@ -36,11 +36,4 @@ permalink: /about/
 </div>
 </div>
 
-
-<div class="row">
-<div align="center">
-<img src="{{ site.baseurl }}/assets/sahit2.jpg" class="about-image">
-</div>
-</div>
-<br><br><br><br><br><br><br>
-t
+<br><br><br>

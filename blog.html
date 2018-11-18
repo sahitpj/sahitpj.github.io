@@ -9,6 +9,9 @@ permalink: /archive/
   <img src="../assets/home-img.jpg" class="home-banner-image">
 </section>
 
+
+
+
 <section class="tag-buttons">
 <div class="container">
 <div class="row">
@@ -34,7 +37,7 @@ permalink: /archive/
       <p class="post-title-side">
         <a  href="{{ post.url | prepend: site.baseurl }}" style="color:black">{{ post.title }}</a>
       </p>
-        <p class="blog-page-content">{{ post.content | strip_html | truncatewords: 50 }}</p>
+        <p class="blog-page-content">{{ post.content | strip_html | truncatewords: 30 }}</p>
       <section class="post-meta">
         <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
         <div class="post-categories">
@@ -47,16 +50,14 @@ permalink: /archive/
         {% endfor %}{% endif %}
         </div>
       </section>
-      </div>
-      </div>
-      <div class="row">
-      <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2 blogposts-tags">
+      <div class="blogposts-tags">
         <h4>Tags</h4>
         {% for tag in tags %}
           <button class="button">{{ tag }}</button>
         {% endfor %}
         <hr>
       </div>
+    </div>
     </div>
     </div>
     {% if forloop.last == false %}

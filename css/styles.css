@@ -231,7 +231,6 @@ footer{
 }
 #lead{
     position:relative;
-    height:100vh;
     min-height:500px;
     max-height:1080px;
     background-size:cover;
@@ -835,7 +834,7 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .post-title-side{
     text-align : left;
     color: black !important;
-    font-size: 36px;
+    font-size: 26px;
     padding-bottom: 20px;
 }
 
@@ -961,7 +960,7 @@ hr.style-seven {
 }
 
 .mainspace-each-title{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .mainspace-a {
@@ -1000,6 +999,7 @@ body{
 
 .blog-page-content{
     font-family: 'Rockwell', sans-serif;
+    font-size: 17px;
 }
 
 /* Button CSS */
@@ -1050,4 +1050,11 @@ body{
     margin: 5px;
   }
   
+ /*  */
+ /*  Product-1 banner */
+ /*  */
+
  
+.product-1{
+   
+}
