@@ -1067,3 +1067,13 @@ body{
 .s1{
     margin-top: -150px;
 }
+
+.ll{
+    align-content: center;
+    text-align: center;
+}
+
+.l-frame{
+    width: 100%;
+    padding: 10px;
+}
