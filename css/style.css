@@ -831,10 +831,8 @@ body {
 }
 
 .imp{
-    font-size: 30px;
+    font-size: 20px;
     line-height: 30px;
-    padding-top: 5px;
-    margin-top:20px;
 }
 .rest{
     font-size: 15px;
@@ -926,8 +924,8 @@ body {
 }
 
 .creative-area{
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .creative-top-area{
@@ -1126,4 +1124,8 @@ footer {
 
 .like{
     padding-top: 150px;
+}
+
+.bottom{
+    padding-bottom: 50px;
 }
