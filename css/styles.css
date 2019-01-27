@@ -834,8 +834,8 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .post-title-side{
     text-align : left;
     color: black !important;
-    font-size: 26px;
-    padding-bottom: 20px;
+    font-size: 20px;
+    padding-bottom: 1px;
 }
 
 .post-author{
@@ -854,11 +854,13 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 }
 
 .blogposts{
-    padding: 40px;
+    padding: 10px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
 }
 
 .blogposts-tags{
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: left;
     
 }
@@ -986,6 +988,20 @@ hr.style-seven {
     font-family: 'Rockwell', serif;
 }
 
+.button-1{
+    background-color: rgb(250, 231, 58);
+    border: none;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Rockwell', serif;
+}
+
 .rest{
     font-size: 20px;
 }
@@ -999,8 +1015,8 @@ body{
 }
 
 .blog-page-content{
-    font-family: 'Rockwell', sans-serif;
-    font-size: 17px;
+    /* font-family: 'Rockwell', sans-serif; */
+    font-size: 14px;
 }
 
 /* Button CSS */
@@ -1082,4 +1098,12 @@ body{
     font-size: 20px;
     color: red;
     text-align:right
+}
+
+
+
+.side-line{
+    padding: 30px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
 }

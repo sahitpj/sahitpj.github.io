@@ -5,14 +5,14 @@ description: List of all Blog Posts
 permalink: /archive/
 ---
 
-<section class="main-header-1">
+<!-- <section class="main-header-1">
   <img src="../assets/home-img.jpg" class="home-banner-image-1">
-</section>
+</section> -->
 
 
 
 
-<section class="tag-buttons">
+<!-- <section class="tag-buttons">
 <div class="container">
 <div class="row">
 <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">
@@ -25,19 +25,25 @@ permalink: /archive/
 </div>
 </div>
 </div>
-</section>
+</section> -->
+
+<!-- <section>
+  <div class="container">
+    
+  </div>
+</section> -->
 
 <section style="padding-top:40px;">
   <div class="grid">
-    {% for post in site.posts %}
-    {% assign tags = post.tags %}
-    <div class="item {% for tag in tags %} {{ tag }} {% endfor %}">
+    {% assign count = 0 %}
+    <div class="item">
     <div class="row">
-    <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2 blogposts">
+    <div class="col-lg-6 col-md-6 col-lg-offset-2 col-md-offset-2 blogposts">
+      {% for post in site.posts %}
       <p class="post-title-side">
         <a  href="{{ post.url | prepend: site.baseurl }}" style="color:black">{{ post.title }}</a>
       </p>
-        <p class="blog-page-content">{{ post.content | strip_html | truncatewords: 30 }}</p>
+        <p class="blog-page-content">{{ post.content | strip_html | truncatewords: 50 }}</p>
       <section class="post-meta">
         <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
         <div class="post-categories">
@@ -49,21 +55,34 @@ permalink: /archive/
           {% endif %}
         {% endfor %}{% endif %}
         </div>
-      </section>
-      <div class="blogposts-tags">
-        <h4>Tags</h4>
-        {% for tag in tags %}
-          <button class="button">{{ tag }}</button>
-        {% endfor %}
         <hr>
-      </div>
+      </section>
+      {% if forloop.last == false %}
+      {% endif %}
+      {% endfor %}
     </div>
+    {% if count == 0 %}
+    <div class="col-lg-3 col-md-3 side-line" style="height: 500px;">
+      Topics : <br>
+      <li> - Natural Language Processing</li>
+      <li> - Data Science </li>
+      <li> - Machine Learning </li>
+      <li> - CheatSheets </li>
+      <l1> - Python [A-Z]</l1>
+      <br><br>
+      <img src="{{ site.baseurl }}/assets/home-img.jpg" >
+
     </div>
-    </div>
-    {% if forloop.last == false %}
+    {% assign count = 1%}
     {% endif %}
-    {% endfor %}
+    </div>
+    
   </div>
+  <!-- <div class="row">
+    <div class="col-lg-2 col-md-2 col-lg-offset-8 col-md-offset-8" style="height: 500px; background-color: blue;  margin-top: -900px;">
+
+    </div>
+  </div> -->
 </section>
 
 
