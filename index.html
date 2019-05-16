@@ -56,10 +56,10 @@ permalink: /
         <div class="row"> 
           <div class="col-md-5">
             <h3>Interests</h3>
-            <ul class="ul-interests">   
+            <ul class="ul-interests">
+              <li>Software Development</li>  
+              <li>Data Science</li>     
               <li>Natural Language Processing</li>
-              <li>Machine Learning</li>   
-              <li>Software Development</li> 
               <li>Open Source</li>    
             </ul>
           </div>   
@@ -79,6 +79,36 @@ permalink: /
       </div>
     </div>
         </div>
+
+
+
+        <section>
+            <div class="container">
+              
+              <div class="row">
+                <div class="col-lg-offset-1 col-lg-7">
+                  <h3>Blog Posts</h3>
+                  {% for post in site.posts %}
+                  <p class="biography-text">
+                      {{ post.date | date: "%B %-d, %Y" }} - <a  href="{{ post.url | prepend: site.baseurl }}" style="color:black">{{ post.title }}</a>
+                  </p>
+                  {% endfor %}
+
+                  <h3 style="margin-top: 40px;">Publications</h3>
+                  <p class="biography-text">
+                    Naman jain, Pranjali Jain, Pratik Kayal, Jayakrishna Sahit, Soham Pachpande, Mayank Singh, Jayesh Choudhuri “Agribot: Agriculture-Speciﬁc Question Answer System” International Conference of STEM, VG 2019
+                  </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <a class="twitter-timeline" data-width="400" data-height="500" data-theme="light" href="https://twitter.com/sahitpj?ref_src=twsrc%5Etfw">Tweets by sahitpj</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
       </section>
       
     <!-- <div id="lead" >
@@ -281,7 +311,7 @@ permalink: /
     </div>
     </div> -->
     
-
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="public/js/scripts.min.js"></script>
