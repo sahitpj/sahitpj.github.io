@@ -519,8 +519,8 @@ footer{
    margin-top:40px;
    left: 0;
    right: 0;
-   background: black;
    bottom: 0px;
+   padding-bottom: 50px;
 }
 
 footer h3 {
@@ -903,13 +903,13 @@ body {
 
 .main-heading{
     color: black;
-    font-size: 55px;
+    font-size: 40px;
     font-family: 'Rockwell', serif;
 }
 
 .side-heading{
     color: black;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Rockwell', serif;
 }
 
@@ -956,8 +956,6 @@ li{
 
 
 footer {
-    background-color:#000000;
-    min-height:350px; 
     font-family: 'Open Sans', sans-serif; 
     margin-top: 0px;
 }
@@ -1128,4 +1126,28 @@ footer {
 
 .bottom{
     padding-bottom: 50px;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.related h3 {
+    padding-bottom: 30px;
+}
+
+.related-posts p {
+    font-size: 2rem;
+}
+
+ol li {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.ml p {
+    color: black !important;
+    font-size: 1.5rem;
 }

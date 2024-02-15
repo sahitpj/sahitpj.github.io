@@ -2,7 +2,7 @@
 layout: post
 title: My Interview Experiences
 comments: true
-tags: [interview, coding]
+tags: [interview, coding, Archive]
 ---
 
 In this post I will be talking about my interview experiences, not about how to crack these interviews but about how I felt about the interview process of two companies and how different they were. This is purely based on what I observed and on my opinions. 

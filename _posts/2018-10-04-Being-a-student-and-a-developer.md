@@ -2,7 +2,7 @@
 layout: post
 title: Being a Student and a Developer
 comments: true
-tags: [Student, Dev]
+tags: [Student, Dev, Archive]
 ---
 
 Being a university student means, you have a lot to learn and simply sticking your courses is not likely to get you anywhere and that applies to every field out there, including being a developer. But what does it mean to be a student developer, or a junior developer for that fact? Here my present my journey from a student to a student developer, and yeah don't be surprised if I tend to talk about emotions and mental states.

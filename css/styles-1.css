@@ -2117,6 +2117,11 @@ body.dark,
 }
 
 
+.main-biography-text{
+  font-size: 2rem;
+  padding:2px;
+}
+
 .biography-text{
   font-size: 16px;
   padding:2px;

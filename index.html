@@ -8,15 +8,13 @@ permalink: /
     
     <!-- End header -->
 
+    
+  <span id="homepage" style="display: none"></span>
+  <section id="about" class="home-section">
     <section>
-      <!-- <div class="filler" style="padding:5px;">
-      </div> -->
-    </section>
-    <span id="homepage" style="display: none"></span>
-   <section id="about" class="home-section">
-        <div class="container">
+    <div class="container">
     <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone">
-      <div class="col-12 col-lg-4">
+      <div class="col-lg-4">
         <div id="profile">
           <img class="portrait" src="{{ site.baseurl }}/assets/sahit2.jpg" itemprop="image" alt="Avatar">
           <div class="portrait-title">
@@ -33,7 +31,12 @@ permalink: /
                 <i class="fas fa-envelope big-icon"></i>
               </a>
             </li>
-        <li>
+            <li>
+              <a itemprop="sameAs" href="https://linkedin.com/sahitpj" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin-in big-icon"></i>
+              </a>
+            </li>
+            <li>
               <a itemprop="sameAs" href="https://twitter.com/sahitpj" target="_blank" rel="noopener">
                 <i class="fab fa-twitter big-icon"></i>
               </a>
@@ -47,59 +50,122 @@ permalink: /
           </ul>
     
         </div>
-      </div>
-      <div class="col-12 col-lg-8" itemprop="description">
-    <!-- <h1 id="biography">Biography</h1> --> <br><br>
-    <p class="biography-text">I am Jayakrishna Sahit, a Senior Computer Science undergraduate at the Indian Institute of Technology, Gandhinagar.
-      My research interests include Machine Learning in Natural Langauge Processing, Information Retreivel and Information Extraction around which I have publications. In the field 
-      of Software Development I like developing solutions for social causes and towards better connectivity. I have previously worked with InMobi and the British Broadcasting
-      Corporation along with doing my Google Summer of Code under DBpedia. Love open sourcing my code bases which I feel would be of use to others
-    </p><br>
-    
-    <p class="biography-text"></p>
-        <div class="row"> 
-          <div class="col-md-5">
-            <h3>Interests</h3>
-            <ul class="ul-interests">
-              <li>Software Development</li>  
-              <li>Machine Learning</li>     
-              <li>Natural Language Processing</li>
-              <li>Open Source</li>    
-            </ul>
-          </div>   
-          <div class="col-md-7">
-            <h3 s>Education</h3>
-            <ul class="ul-edu fa-ul">
-              <li>
-                <i class="fa-li fas fa-graduation-cap"></i>
-                <div class="description">
-                  <p class="course">B.Tech in Computer Science and Engineering, 2016</p>
-                  <p class="institution">Indian Institute of Technology Gandhinagar</p>
-                </div>
-              </li>         
-            </ul>
+        </div>
+          <div class="col-12 col-lg-8" itemprop="description">
+            <div class="row"> 
+              <div class="col-md-12">
+                <br>
+                <p class="main-biography-text">Hey I am Jayakrishna Sahit, and I am a machine learning engineer and software engineer who specializes in ML Systems as well as MLOps.
+                  I am excited about designing and implementing highly scalable end-to-end 
+                  ML systems for business problems, making sure businesses dervice value from them in terms of cost, resources and customer value. 
+                </p><br>
+                <p class="main-biography-text">I currently work at <a href="https://www.flipkart.com/">Flipkart</a>  as an ML Engineer where I contribute to designing ML Systems, recently having worked on Flipkart's Visual Search System, Data science problems 
+                  having worked on Demand Forecasting and estabalishing MLOps at Flipkart. I previously worked at <a href="https://www.deepen.ai/">deepen.ai</a> 
+                </p><br>
+                <p class="main-biography-text">
+                  Apart from that i love contributing to open source and blogging as well. I am currently blogging my experiences and learnings as an ML Engineer
+                  which i believe are of high value for my fellow engineers in the same space.
+                </p>
+              </div>   
+            </div>
           </div>
         </div>
-      </div>
-    </div>
         </div>
 
 
         <div class="filler" style="padding:20px;">
         </div>
-        <section>
-            <div class="container">
-              
-              <div class="row">
-                <div class="col-lg-offset-1 col-lg-7">
-                  <h3>Blog Posts</h3>
-                  {% for post in site.posts %}
-                  <p class="biography-text">
-                      {{ post.date | date: "%B %-d, %Y" }} - <a  href="{{ post.url | prepend: site.baseurl }}" style="color:black">{{ post.title }}</a>
-                  </p>
-                  {% endfor %}
+      </section>
 
-                  <h3 style="margin-top: 40px;">Google Summer of Code Blog</h3>
+
+      <section style="padding-top: 50px;">
+        <div class="container ml">
+          <div class="row">
+            <div class="col-lg-12">
+              <h3>Machine Learning Engineering</h3>
+              <p>
+                  In the industry I have noticed the term Machine Learning Engineer being used to describe 2 jobs :- <br/> <br/>
+                  <ol>
+                    <li>
+                      The first being equivalent to a Data Scientist where in an ML Engineer is responsible for solving a business problem through machine learning. This 
+                      person is responsible for training/validation/testing etc of this algorithm and finally deploying the algorithm to production. Once its in production
+                      they monitor it, iterate, retrain the model to better its business value.  The person is also 
+                      expected to be good in software engineering, in case for example they need to write data pipelines to faciliate re-training.
+                    </li>
+                    <br>
+                    <li>
+                      The second being a software engineer who is responsible for converting model code to production code, ml infra code, data pipelines for models, model 
+                      obeservability, designing systems which specifically have ML components and similar tasks. The person requires to know about machine learning however does 
+                      not participate directly in the process of finding the best ML algorithm for the problem, however he can give his insights or suggestions from an engineering
+                      stand point.
+                    </li>
+                  </ol> <br/>
+                  There is also the <b>MLOps Engineer</b> which some companies interpret as :-<br/><br/>
+                  <ol>
+                    <li>
+                      An ML Engineer who only looks at the engineering side, specifically ML infra, ML obeservability, ML and data pipelines. 
+                    </li>
+                    <br>
+                    <li>
+                      A Dev Ops Engineer but specifically for ML models
+                    </li>
+                  </ol>
+              </p><br>
+              <p>
+                Given we have all these definitions, I identify as an ML Engineer of the first and second kind as well, however i lean more towards the second kind. On my website
+                I intend to talk about how production ML systems are engineered. This includes  be talking about both however will go more into the depth of the engineering side. I might skip in depth 
+                details of the model, however talking about the model, its architecture, training will be an important topic of discussion. <br/><br/>
+                <a href="#" class="btn btn-primary" style="margin-left: 0px;">ML Engg Blog -></a>
+              </p>
+            </div>  
+          </div>
+        </div>
+      </section>
+
+      <section style="padding-top: 50px;">
+        <div class="container ml">
+          <div class="row">
+            <div class="col-lg-6">
+              <h3>ML Engineering Blog Posts</h3>
+              <p>
+                
+                <a href="#" class="btn btn-primary" style="margin-left: 0px;">Machine Learning Blog -></a>
+              </p>
+            </div>  
+          </div>
+        </div>
+      </section>
+
+
+      <section style="padding-top: 100px;">
+          <div class="container">
+            
+            <div class="row">
+              <div class="col-lg-8">
+                <h3>Archive</h3>
+                {% for p in site.posts %}
+                  {% if p.tags contains 'Archive' %}
+                    <p class="biography-text">
+                      {{ p.date | date: "%B %-d, %Y" }} - <a  href="{{ p.url | prepend: site.baseurl }}" style="color:black">{{ p.title }}</a>
+                    </p>
+                  {% endif %}
+                {% endfor %}
+
+                
+                <!-- hello  -->
+
+                <h3 style="margin-top: 40px;">Publications</h3>
+                <p class="biography-text">
+                  Parmar, Monarch; Jain, Naman; Jain, Pranjali; Sahit, P. Jayakrishna; Pachpande, Soham; Singh, Shruti and Singh, Mayank, “NLPExplorer: exploring the universe of NLP papers”, In Proceedings of the European Conference on Information Retrieval (ECIR) 2020 arXiv, DOI: arXiv:1910.07351, Oct. 2019.
+                </p>
+                <br>
+                <p class="biography-text">
+                  Naman jain, Pranjali Jain, Pratik Kayal, Jayakrishna Sahit, Soham Pachpande, Mayank Singh, Jayesh Choudhuri “Agribot: Agriculture-Speciﬁc Question Answer System” International Conference of STEM, VG 2019
+                </p>
+              </div>
+
+              <div class="col-lg-4">
+                  <h3 style="margin-top: 10px;">Google Summer of Code Blog</h3>
                   <p class="biography-text">
                     17 May 2019 - <a  href="https://sahitpj.github.io/gs/gsoc/2019/05/17/Introduction-Community-Bonding-period-Part1.html" style="color:black">Introducton and Community Bonding : Part-1</a>
                   </p>
@@ -145,214 +211,11 @@ permalink: /
                   <p class="biography-text">
                     25 August 2019 - <a  href="https://sahitpj.github.io/gs/gsoc/2019/08/25/Signing-Off.html" style="color:black">The End of an Amazing Journey</a>
                   </p>
-                  <!-- hello  -->
-
-                  <h3 style="margin-top: 40px;">Publications</h3>
-                  <p class="biography-text">
-                    Naman jain, Pranjali Jain, Pratik Kayal, Jayakrishna Sahit, Soham Pachpande, Mayank Singh, Jayesh Choudhuri “Agribot: Agriculture-Speciﬁc Question Answer System” International Conference of STEM, VG 2019
-                  </p>
-                </div>
-
-                <div class="col-lg-4">
-                    <a class="twitter-timeline" data-width="400" data-height="500" data-theme="light" href="https://twitter.com/sahitpj?ref_src=twsrc%5Etfw">Tweets by sahitpj</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-
-
-      </section>
+</section>
       
-    <!-- <div id="lead" >
-        <div id="lead-content">
-            <h2>Jayakrishna Sahit</h2>
-            <h5>Software Developer</h5>
-            <a href="{{ site.baseurl }}/assets/Resume_Org.pdf" target="_blank" class="btn-rounded-blue">View Resume</a>
-            <p class="icon-home-page">
-              <a href="mailto:sahitjayakrishna8@gmail.com"><i class="fa fa-envelope-o fa-fw" aria-hidden="true" style="font-size:20px;color:black"></i></a>
-              &nbsp; &nbsp; &nbsp;
-              <a href="https://github.com/sahitpj"><i class="fa fa-github" aria-hidden="true" style="font-size:20px;color: black"></i></a>
-              &nbsp; &nbsp; &nbsp;
-              <a href="https://twitter.com/sahitpj"><i class="fa fa-twitter" aria-hidden="true" style="font-size:20px;color:black"></i></a>
-              &nbsp; &nbsp; &nbsp;
-              <a href="https://www.linkedin.com/in/jayakrishna-sahit-81b485129/"><i class="fa fa-linkedin" aria-hidden="true" style="font-size:20px;color:black"></i></a>
-              &nbsp; &nbsp; &nbsp;
-              <a href="https://gitlab.com/sahitpj"><i class="fa fa-gitlab" aria-hidden="true" style="font-size:20px;color:black"></i></a>
-            </p>
-        </div>
-        <div id="lead-overlay"></div>
-      </div> -->
-        <!-- <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div> -->
-        <!-- End #lead-down -->
     
-    <!-- End #lead -->
-
-    <!-- <section>
-              <img src="{{ site.baseurl }}/assets/conf3.jpg" alt="sahitpj" class="home-image">
-    </section> -->
-    <!-- End #about -->
-<!--
-    <div id="experience">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-        </div>
-    </div>
-    <-- End #experience -->
-  
-
-  <!-- <section class="interesting-updates">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4 pb-30 diff" style="padding-top: 70px; margin-left: 10px">
-            <h1 class="mainspace-heading">Mainspace.Org</h1>
-          </div>
-        </div>
-        <div class="row diff">	
-          <div class="single-updates col-lg-8 col-md-8" style="padding: 30px">
-            <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
-            </div>							
-              <h4 class="mainspace-each-title diff" >About us</h4>
-            <p>Mainspace.Org work towards empowering individuals and other organizations. We do this by understanding and developing technologies which help the internet become a
-              better place.
-            </p>
-            <p>
-              Wish to work with us? Drop in a mail and we will let you know how you can help us work towards a better internet
-            </p>
-            <hr>
-           
-            <button class="button">Main Website</button>
-          </div>
-          <div class="single-updates col-lg-4 col-md-4" style="padding: 30px">
-            <img class="mainspace-image" src="assets/techinst.jpg">
-          </div>																		
-        </div>
-        <div class="row">
-        </div>
-      </div>	
-    </section>
-    <section class="product-1">
-      <div class="container">
-        <div class="row diff">
-          <div class="col-lg-6 col-md-6 col-sm-6">
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- <div id="education">
-        <div class="wrapper">
-            <ul class="post-list">
-              {% for post in paginator.posts %}
-              <div class="row">
-              <div class="col-lg-6 col-md-6 col-lg-offset-1 col-md-offset-1 blogposts">
-                <h2 class="post-title">
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h2>
-                <section class="post-excerpt" itemprop="description">
-                  <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-                </section>
-                <section class="post-meta">
-                  <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
-                  <div class="post-categories">
-                  {% if post.categories.size > 0 %}in {% for cat in post.categories %}
-                    {% if site.jekyll-archives %}
-                    <a href="{{ site.baseurl }}/category/{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
-                    {% else %}
-                    <a href="{{ site.baseurl }}/posts/#{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
-                    {% endif %}
-                  {% endfor %}{% endif %}
-                  </div>
-                </section>
-                </div>
-                <div class="col-lg-4 col-md-4 col-lg-offset-1 col-md-offset-1 blogposts-tags">
-                  <h4>Tags</h4>
-                  {% assign tags = post.tags %}
-                  {% for tag in tags %}
-                    <button type="button" class="btn btn-primary" style="margin-top:8px">{{ tag }}</button>
-                  {% endfor %}
-                </div>
-              </div>
-              {% if forloop.last == false %}
-              <hr>
-              {% endif %}
-              {% endfor %}
-            </ul>
-            
-            <nav class="pagination" role="navigation">
-              <p>
-                {% if paginator.previous_page %}
-                  {% if paginator.page == 2 %}
-                  <a class="newer-posts" href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-square fa-stack-2x"></i>
-                      <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                  {% else %}
-                  <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-square fa-stack-2x"></i>
-                      <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                  {% endif %}
-                {% else %}
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-square fa-stack-2x"></i>
-                  <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-                </span>
-                {% endif %}
-                <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-                {% if paginator.next_page %}
-                <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-square fa-stack-2x"></i>
-                    <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-                {% else %}
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-square fa-stack-2x"></i>
-                  <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
-                </span>
-                {% endif %}
-              </p>
-            </nav>
-    </div>
-    </div> -->
-    
-    
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="public/js/scripts.min.js"></script>
-</body>
-
-</html>

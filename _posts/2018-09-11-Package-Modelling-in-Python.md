@@ -2,7 +2,7 @@
 layout: post
 title: Package Modelling in Python
 comments: true
-tags: [Python, Package, Dev]
+tags: [Python, Package, Dev, Archive]
 ---
 
 We all develop python code - small or big, whether it is related to an Application or a package, the way in which the Python is written ultimately plays a major role in deciding it's usibilty. Thus assuming if I were to build a solution to a machine learning problem, however I cram my entire solution into one .py file. The good things are :

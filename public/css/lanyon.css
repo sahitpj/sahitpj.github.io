@@ -338,6 +338,7 @@ a.sidebar-nav-item:focus {
   border-top: 1px solid #eee;
 }
 .related-posts {
+  font-size: 2rem;
   padding-left: 0;
   list-style: none;
 }

@@ -585,7 +585,7 @@ footer{
 .optional-section{
     padding:50px 15px;
     text-align:center;
-    border-top:1px solid #dcd9d9
+    /* border-top:1px solid #dcd9d9 */
 }
 .optional-section h2{
     color:#374054

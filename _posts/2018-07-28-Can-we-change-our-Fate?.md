@@ -2,7 +2,7 @@
 layout: post
 title: Can we change our Fate?
 comments: true
-tags: []
+tags: [Archive]
 ---
 
 Fate is something we use almost regularly, usually in the context of when we can’t predict the outcome of an action, we as humans push it towards fate. it.
