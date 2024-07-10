@@ -829,6 +829,7 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
     text-align: left;
     padding-right: 25px;
     color: black;
+    font-family: "Lora", serif;
 }
 
 .post-title-side{
@@ -850,7 +851,7 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .post-excerpt{
     text-align: left !important;
     padding-top: 10px;
-    font-family: 'Rockwell', sans-serif;
+    font-family: "Lora", serif;
 }
 
 .blogposts{
@@ -865,8 +866,8 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
     
 }
 .post-template-content{
-    font-size: 17px;
-    font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+    font-size: 20px;
+    font-family: "Lora", serif;
     line-height: 1.42857143;
     /* padding-left: 15px;
     padding-right: 25px; */
@@ -1077,7 +1078,7 @@ body{
 }
 
 .art{
-    font-family: 'Rockwell', serif;
+    font-family: "Lora", serif;
 }
 
 .s1{

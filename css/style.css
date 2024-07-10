@@ -16,6 +16,9 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 * ==========================================================================
 */
 
+/* "Lora", serif */
+
+
 .btn-primary{
   margin-left: 20px;
 }
@@ -904,7 +907,7 @@ body {
 .main-heading{
     color: black;
     font-size: 40px;
-    font-family: 'Rockwell', serif;
+    font-family: "Lora", seriff;
 }
 
 .side-heading{
@@ -920,12 +923,13 @@ body {
 */
 
 .art{
-    font-family: 'Rockwell', serif;
+    font-family: "Lora", serif;
 }
 
 .creative-area{
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: "Lora", serif;
 }
 
 .creative-top-area{
